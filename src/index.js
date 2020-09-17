@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { BrowserRouter } from 'react-router-dom';
+import { Paper } from '@material-ui/core';
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+
+  <BrowserRouter>
+    <React.StrictMode>
+      <Paper elevation={0}  style={{height : '100%', position : 'relative', top : 0, left : 0, bottom : 0, right : 0, margin : 0}}>
+        <App />
+      </Paper>
+    </React.StrictMode>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

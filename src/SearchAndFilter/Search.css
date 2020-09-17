@@ -1,0 +1,46 @@
+.search{
+    padding: 35px 15px;
+ 
+}
+input[type=text]:focus{
+   border-color:  dodgerblue;
+   box-shadow: 0 0 8px 0 dodgerblue;
+}
+.inputSearch input[type=text] {
+    
+    padding: 15px;
+    padding-left: 45px;
+    color: grey;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.inputSearch{
+    position:  relative;
+    padding: 15px;
+  
+}
+.inputSearch span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 18px;
+    color: grey;
+    
+}
+.inputSearch span:focus{
+   color:  dodgerblue;; 
+}
+
+
+.select{
+    padding: 15px;
+   
+    color: grey;
+    border-radius: 5px;
+    line-height: 25px;
+    font-size: larger;
+}
+.searchContainer{
+    margin: 30px ;
+}

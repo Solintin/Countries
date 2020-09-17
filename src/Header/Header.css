@@ -1,0 +1,14 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    background-color: white;
+    color:  black;
+    align-content: center;
+    align-self: center;
+    
+}
+.icon:hover{
+    border: 3px solid steelblue;
+    border-radius: 5px;
+}
