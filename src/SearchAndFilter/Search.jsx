@@ -1,7 +1,7 @@
 import React from 'react'
 import Main from '../Main/Main'
 import { Grid, } from '@material-ui/core';
-import './Search.css'
+import '../App.css'
 import { SearchRounded } from '@material-ui/icons';
 
 function Search({ Country }) {

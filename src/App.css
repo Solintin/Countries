@@ -1,0 +1,163 @@
+body{
+    background-color: whitesmoke;
+    color: white;
+}
+body .darkMode{
+    background-color: #1e262c;
+}
+body .lightMode {
+    background-color: whitesmoke;
+    color: black;
+}
+
+body .darkMode .card{
+    height: 350px;
+    width: auto;
+    background-color: #2b3741;
+    border-radius: 5px;
+    margin: 15px;
+    color: white;
+}
+body .darkMode .card :hover{
+    box-shadow: lightskyblue;
+    transition: 3s;
+}
+body .darkMode .Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    background-color: #2b3741;
+    color:  white;
+    align-content: center;
+    align-self: center;
+    
+}
+
+
+body .darkMode .search{
+    padding: 35px 15px;
+ 
+}
+input[type=text]:focus{
+   border-color:  dodgerblue;
+   box-shadow: 0 0 8px 0 dodgerblue;
+}
+body .darkMode .inputSearch input[type=text] {
+    
+    padding: 15px;
+    padding-left: 45px;
+    color:white;
+    border-radius: 5px;
+    background-color: #2b3741;
+
+    font-size: larger;
+}
+
+.inputSearch{
+    position:  relative;
+    padding: 15px;
+  
+}
+.inputSearch span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 24px 20px;
+    color: grey;
+    
+}
+.inputSearch span:focus{
+   color:  dodgerblue;; 
+}
+
+
+body .darkMode .select{
+    padding: 15px;
+    color:white;
+    border-radius: 5px;
+    background-color: #2b3741;
+
+    line-height: 25px;
+    font-size: larger;
+}
+.searchContainer{
+    margin: 30px ;
+}
+
+
+                        /* LIGHT MODE THEME */
+
+
+
+body .lightMode .card{
+    height: 350px;
+    width: auto;
+    background-color: WHITE;
+    border-radius: 5px;
+    margin: 15px;
+    color: BLACK;
+}
+body .lightMode .card :hover{
+    box-shadow: lightskyblue;
+    transition: 3s;
+}
+body .lightMode .Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    background-color: WHITE;
+    color:  BLACK;
+    align-content: center;
+    align-self: center;
+    
+}
+
+body .lightMode .search{
+    padding: 35px 15px;
+    
+}
+input[type=text]:focus{
+    border-color:  dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+body .lightMode .inputSearch input[type=text] {
+    
+    padding: 15px;
+    padding-left: 45px;
+    color:black;
+    border-radius: 5px;
+    background-color: WHITE;
+
+    font-size: larger;
+}
+
+.inputSearch{
+    position:  relative;
+    padding: 15px;
+    
+}
+.inputSearch span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 24px 20px;
+    color: grey;
+    
+}
+.inputSearch span:focus{
+    color:  dodgerblue;; 
+}
+
+
+body .lightMode .select{
+    padding: 15px;
+    color:black;
+    border-radius: 5px;
+    background-color: WHITE;
+
+    line-height: 25px;
+    font-size: larger;
+}
+.searchContainer{
+    margin: 30px ;
+}

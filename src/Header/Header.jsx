@@ -1,31 +1,19 @@
 import React from 'react'
-import './Header.css'
+import '../App.css'
 import Brightness5Icon from '@material-ui/icons/Brightness5';
-import Brightness2Icon from '@material-ui/icons/Brightness2';
-import Switch from '@material-ui/core/Switch';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-
-
-
+import Brightness3Icon from '@material-ui/icons/Brightness3';
+import { IconButton } from '@material-ui/core';
 
 
 
 function Header({ darkMode, handleDark }) {
 
     return (
-        <div>
-            
-                <AppBar color='transparent' position='static' className="Header">
-                    <Toolbar>
-                   
-                        <div style={{ fontSize: 43, fontWeight: 700, flex : 1}}>Where in the World?</div>
-                        <div className='icon'>
-                           <Brightness5Icon style={{color : darkMode ? 'yellow' : '' }}  /> <Switch checked={darkMode} onChange={handleDark} />  <Brightness2Icon /></div>
-                   
-                    </Toolbar>
-                </AppBar>
-            
+        <div className='Header'>
+            <div style={{ fontSize: 43, fontWeight: 700, flex: 1 }}>Where in the World?</div>
+            <IconButton className='icon' onClick={handleDark}>{darkMode ? <Brightness5Icon style={{color : 'yellow'}}/> : <Brightness3Icon style={{color : '#000'}} />}
+            </IconButton>
+
         </div>
 
     )
