@@ -19,7 +19,7 @@ function Main( props ) {
         while (idx < more) {
             return (
 
-                <Grid item xs={12} sm={6} md={4} lg={3} key={Data.name} >
+                <Grid className='cardDesign' item xs={12} sm={6} md={4} lg={3} key={Data.name} >
                
                     <div className='card' onClick={() => handleClick(Data.alpha3Code)}>
                         <img src={Data.flag} width='100%' height='150' alt={Data.name} />

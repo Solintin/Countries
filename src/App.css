@@ -96,10 +96,25 @@ body .lightMode .card{
     border-radius: 5px;
     margin: 15px;
     color: BLACK;
+    backface-visibility: hidden;
+   
 }
 body .lightMode .card :hover{
     box-shadow: lightskyblue;
-    transition: 3s;
+    backface-visibility: hidden;
+    
+    
+}
+body .lightMode .cardDesign{
+    transform: 5s;
+    transition: transform 0.3s ease-in-out; 
+    overflow: hidden;
+    backface-visibility: hidden;
+    
+}
+body .lightMode .cardDesign :hover{
+    transform: scale(1.06);
+    
 }
 body .lightMode .Header{
     display: flex;
@@ -127,7 +142,7 @@ body .lightMode .inputSearch input[type=text] {
     color:black;
     border-radius: 5px;
     background-color: WHITE;
-
+    border: none;
     font-size: larger;
 }
 
